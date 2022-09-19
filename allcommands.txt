@@ -13,3 +13,73 @@
    19  git status
    20  history
 
+  7  git remote add origin "https://github.com/VishalJagwani/Amd_VJ"
+    8  git pull origin master
+    9  clear
+   10  vi first.txt
+   11  vi second.txt
+   12  cat first.txt
+   13  cat second.txt
+   14  ls -lrt
+   15  clear
+   16  git status
+   17  git add .
+   18  git commit -m "two twxt files to commit"
+   19  git status
+   20  history
+   21  vi allcommands.txt
+   22  git status
+   23  git add .
+   24  git commit -m "allcommands file to commit"
+   25  git status
+   26  history
+   27  ls -lrt
+   28  git log
+   29  git branch testbranch
+   30  git checkout testbranch
+   31  history
+   32  vi branch.txt
+   33  git status
+   34  git add .
+   35  git commit -m "branch file to commit"
+   36  git status
+   37  git checkout testbranch
+   38  ls -lrt
+   39  vi addtobranch.txt
+   40  git add addtobranch.txt
+   41  git commit -m "addtobranch file to commit"
+   42  ls -lrt
+   43  git checkout master
+   44  git merge testbranch
+   45  git checkout testbranch
+   46  ls -lrt
+   47  git checkout master
+   48  ls -lrt
+   49  git commit -a -m "indexed and modified files"
+   50  vi index.txt
+   51  git commit -a -m "indexed and modified files"
+   52  cat index.txt
+   53  git checkout testbranch
+   54  git add index.txt
+   55  git commit -a -m "indexed and modified files"
+   56  git branch secondbr
+   57  git checkout secondbr
+   58  ls -lrt
+   59  vi test1.txt
+   60  git add test1.txt
+   61  git commit -m "test file to commit"
+   62  ls -lrt
+   63  git checkout master
+   64  ls -lrt
+   65  git checkout secondbr
+   66  ls -lrt
+   67  git checkout master
+   68  ssh-keygen
+   69  cat c/Users/amdonb05/.ssh/id_rsa.pub
+   70  cat /c/Users/amdonb05/.ssh/id_rsa.pub
+   71  git push origin master
+   72  git merge secondbr
+   73  git push origin master
+   74  git push origin master
+   75  history
+
