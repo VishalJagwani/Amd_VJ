@@ -1,0 +1,15 @@
+    7  git remote add origin "https://github.com/VishalJagwani/Amd_VJ"
+    8  git pull origin master
+    9  clear
+   10  vi first.txt
+   11  vi second.txt
+   12  cat first.txt
+   13  cat second.txt
+   14  ls -lrt
+   15  clear
+   16  git status
+   17  git add .
+   18  git commit -m "two twxt files to commit"
+   19  git status
+   20  history
+
